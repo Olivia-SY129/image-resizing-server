@@ -1,0 +1,32 @@
+{
+  "name": "fastcampus-2021-examples",
+  "author": "Jeongho Jeong",
+  "license": "MIT",
+  "engines": {
+    "node": "14.15.4"
+  },
+  "scripts": {
+    "server": "nodemon src/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "image-size": "^1.0.1",
+    "node-fetch": "^2.6.6",
+    "sharp": "^0.29.3",
+    "unsplash-js": "^7.0.15"
+  },
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "description": "이미지 리사이징 서버"
+}
